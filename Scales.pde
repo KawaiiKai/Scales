@@ -4,7 +4,7 @@ void setup() {
 }
 void draw() {
   for(int y = -20 ;y < 600; y++){
-    scale((int)((Math.random()*500)),(int)((Math.random()*520)-20));
+    scale((int)((Math.random()*520)-20),(int)((Math.random()*520)-20));
   }
 }
 void scale(int x, int y) {
