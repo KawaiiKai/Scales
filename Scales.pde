@@ -2,13 +2,13 @@ void setup() {
   size(500, 500);  
 
 }
-void draw() {
+void draw() { 
   for(int y = -20 ;y < 600; y++){
     scale((int)((Math.random()*520)-20),(int)((Math.random()*520)-20));
   }
 }
 void scale(int x, int y) {
-
+//punches
 fill(225,39,62);
 beginShape();
 vertex(x,y);
