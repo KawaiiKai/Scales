@@ -3,7 +3,7 @@ void setup() {
 
 }
 void draw() { 
-  for(int y = -20 ;y < 600; y++){
+  for(int y = -20 ;y < 600; y+=500){
     scale((int)((Math.random()*550)-50),(int)((Math.random()*520)-20));
   }
 }
